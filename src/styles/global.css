@@ -1,0 +1,68 @@
+/* tables */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table {
+  width: 100%;
+}
+/* grid */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+/* header */
+.header {
+  margin-bottom: 30px;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  cursor: pointer;
+}
+/* cart */
+.cart__actions {
+  display: flex;
+  justify-content: space-around;
+}
+.total {
+  margin-top: 30px;
+}
+/* buttons */
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: initial;
+}
+button svg {
+  fill: green;
+}
+.removeProduct svg {
+  fill: red;
+}
+.sortByPrice {
+  cursor: pointer;
+}
+.categories {
+  margin-bottom: 40px;
+}
+.categories__item {
+  padding-right: 40px;
+  cursor: pointer;
+  line-height: 2;
+}
+.categories__item:hover {
+  text-decoration: underline;
+}
+.categories__item.active {
+  text-decoration: underline;
+}
